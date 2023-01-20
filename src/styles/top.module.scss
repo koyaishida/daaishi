@@ -1,0 +1,47 @@
+
+
+.top {
+margin: 0 auto;
+ &__container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1080px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+ }
+  &__card {
+    width: calc(50% - 24px);
+    padding:16px;
+    background-color: #fff;
+    border-radius: 24px;
+    margin-bottom: 24px;
+  }
+  &__heading{
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.8;
+    text-indent: 22px;
+      &__en {
+        font-size: 14px;
+        line-height: 1.8;
+      }
+      &__wrap {
+        text-align: center;
+      }
+      &__border {
+        border-bottom: 2px solid black;
+        height: 1px;
+        width: 100%;
+        display: block;
+      }
+  }
+  &__text{
+    display: flex;
+    justify-content: space-between;
+  }
+}
